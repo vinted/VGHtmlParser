@@ -16,10 +16,13 @@
 		ADAE312A1A07D19A00A065E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAE31281A07D19A00A065E8 /* LaunchScreen.xib */; };
 		ADAE31361A07D19A00A065E8 /* HtmlParserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31351A07D19A00A065E8 /* HtmlParserDemoTests.m */; };
 		ADAE31411A07D50200A065E8 /* html1.html in Resources */ = {isa = PBXBuildFile; fileRef = ADAE31401A07D50200A065E8 /* html1.html */; };
-		ADAE31471A07D5B000A065E8 /* VGHtmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31461A07D5B000A065E8 /* VGHtmlParser.m */; };
-		ADAE31571A082C0C00A065E8 /* VGHtmlATagTransfom.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31541A082C0C00A065E8 /* VGHtmlATagTransfom.m */; };
-		ADAE31581A082C0C00A065E8 /* VGHtmlBrTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31561A082C0C00A065E8 /* VGHtmlBrTagTransform.m */; };
-		ADAE315B1A0832D700A065E8 /* VGHtmlPTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE315A1A0832D700A065E8 /* VGHtmlPTagTransform.m */; };
+		ADAE31671A0847C600A065E8 /* VGHtmlATagTransfom.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE315F1A0847C600A065E8 /* VGHtmlATagTransfom.m */; };
+		ADAE31681A0847C600A065E8 /* VGHtmlBrTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31611A0847C600A065E8 /* VGHtmlBrTagTransform.m */; };
+		ADAE31691A0847C600A065E8 /* VGHtmlPTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31631A0847C600A065E8 /* VGHtmlPTagTransform.m */; };
+		ADAE316A1A0847C600A065E8 /* VGHtmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31651A0847C600A065E8 /* VGHtmlParser.m */; };
+		ADAE316E1A08485C00A065E8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ADAE316C1A08485C00A065E8 /* LICENSE */; };
+		ADAE316F1A08485C00A065E8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ADAE316D1A08485C00A065E8 /* README.md */; };
+		ADAE31711A08491200A065E8 /* VGHtmlParser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = ADAE31701A08491200A065E8 /* VGHtmlParser.podspec */; };
 		B49C4470E7EB2950B6D66B7F /* libPods-HtmlParserDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A23402E615387BADADCD2897 /* libPods-HtmlParserDemoTests.a */; };
 /* End PBXBuildFile section */
 
@@ -51,15 +54,18 @@
 		ADAE31341A07D19A00A065E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ADAE31351A07D19A00A065E8 /* HtmlParserDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HtmlParserDemoTests.m; sourceTree = "<group>"; };
 		ADAE31401A07D50200A065E8 /* html1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html1.html; sourceTree = "<group>"; };
-		ADAE31451A07D5B000A065E8 /* VGHtmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlParser.h; sourceTree = "<group>"; };
-		ADAE31461A07D5B000A065E8 /* VGHtmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlParser.m; sourceTree = "<group>"; };
-		ADAE31481A07D92000A065E8 /* VGHtmlTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlTagTransform.h; sourceTree = "<group>"; };
-		ADAE31531A082C0C00A065E8 /* VGHtmlATagTransfom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlATagTransfom.h; sourceTree = "<group>"; };
-		ADAE31541A082C0C00A065E8 /* VGHtmlATagTransfom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlATagTransfom.m; sourceTree = "<group>"; };
-		ADAE31551A082C0C00A065E8 /* VGHtmlBrTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlBrTagTransform.h; sourceTree = "<group>"; };
-		ADAE31561A082C0C00A065E8 /* VGHtmlBrTagTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlBrTagTransform.m; sourceTree = "<group>"; };
-		ADAE31591A0832D700A065E8 /* VGHtmlPTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlPTagTransform.h; sourceTree = "<group>"; };
-		ADAE315A1A0832D700A065E8 /* VGHtmlPTagTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlPTagTransform.m; sourceTree = "<group>"; };
+		ADAE315E1A0847C600A065E8 /* VGHtmlATagTransfom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlATagTransfom.h; sourceTree = "<group>"; };
+		ADAE315F1A0847C600A065E8 /* VGHtmlATagTransfom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlATagTransfom.m; sourceTree = "<group>"; };
+		ADAE31601A0847C600A065E8 /* VGHtmlBrTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlBrTagTransform.h; sourceTree = "<group>"; };
+		ADAE31611A0847C600A065E8 /* VGHtmlBrTagTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlBrTagTransform.m; sourceTree = "<group>"; };
+		ADAE31621A0847C600A065E8 /* VGHtmlPTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlPTagTransform.h; sourceTree = "<group>"; };
+		ADAE31631A0847C600A065E8 /* VGHtmlPTagTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlPTagTransform.m; sourceTree = "<group>"; };
+		ADAE31641A0847C600A065E8 /* VGHtmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VGHtmlParser.h; path = ../../Pod/Classes/VGHtmlParser.h; sourceTree = "<group>"; };
+		ADAE31651A0847C600A065E8 /* VGHtmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VGHtmlParser.m; path = ../../Pod/Classes/VGHtmlParser.m; sourceTree = "<group>"; };
+		ADAE31661A0847C600A065E8 /* VGHtmlTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VGHtmlTagTransform.h; path = ../../Pod/Classes/VGHtmlTagTransform.h; sourceTree = "<group>"; };
+		ADAE316C1A08485C00A065E8 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		ADAE316D1A08485C00A065E8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		ADAE31701A08491200A065E8 /* VGHtmlParser.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VGHtmlParser.podspec; path = ../VGHtmlParser.podspec; sourceTree = "<group>"; };
 		C285C379D3560B41D65BBB97 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		D40D2F1E2A4D04246C1C228A /* Pods-HtmlParserDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HtmlParserDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HtmlParserDemoTests/Pods-HtmlParserDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		EB8008AF55312ED48C9221C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -97,6 +103,7 @@
 		ADAE310D1A07D19A00A065E8 = {
 			isa = PBXGroup;
 			children = (
+				ADAE316B1A08484A00A065E8 /* Podspec Metadata */,
 				ADAE31181A07D19A00A065E8 /* HtmlParserDemo */,
 				ADAE31321A07D19A00A065E8 /* HtmlParserDemoTests */,
 				ADAE31171A07D19A00A065E8 /* Products */,
@@ -117,7 +124,7 @@
 		ADAE31181A07D19A00A065E8 /* HtmlParserDemo */ = {
 			isa = PBXGroup;
 			children = (
-				ADAE31441A07D5B000A065E8 /* VGHtmlParser */,
+				ADAE315C1A0847B600A065E8 /* VGHtmlParser */,
 				ADAE313F1A07D4E000A065E8 /* HtmlFiles */,
 				ADAE311D1A07D19A00A065E8 /* AppDelegate.h */,
 				ADAE311E1A07D19A00A065E8 /* AppDelegate.m */,
@@ -165,29 +172,39 @@
 			path = HtmlFiles;
 			sourceTree = "<group>";
 		};
-		ADAE31441A07D5B000A065E8 /* VGHtmlParser */ = {
+		ADAE315C1A0847B600A065E8 /* VGHtmlParser */ = {
 			isa = PBXGroup;
 			children = (
-				ADAE31521A082C0C00A065E8 /* DefaultTransformers */,
-				ADAE31451A07D5B000A065E8 /* VGHtmlParser.h */,
-				ADAE31461A07D5B000A065E8 /* VGHtmlParser.m */,
-				ADAE31481A07D92000A065E8 /* VGHtmlTagTransform.h */,
+				ADAE315D1A0847C600A065E8 /* DefaultTransformers */,
+				ADAE31641A0847C600A065E8 /* VGHtmlParser.h */,
+				ADAE31651A0847C600A065E8 /* VGHtmlParser.m */,
+				ADAE31661A0847C600A065E8 /* VGHtmlTagTransform.h */,
 			);
 			name = VGHtmlParser;
-			path = ../../../VGHtmlParser;
 			sourceTree = "<group>";
 		};
-		ADAE31521A082C0C00A065E8 /* DefaultTransformers */ = {
+		ADAE315D1A0847C600A065E8 /* DefaultTransformers */ = {
 			isa = PBXGroup;
 			children = (
-				ADAE31531A082C0C00A065E8 /* VGHtmlATagTransfom.h */,
-				ADAE31541A082C0C00A065E8 /* VGHtmlATagTransfom.m */,
-				ADAE31551A082C0C00A065E8 /* VGHtmlBrTagTransform.h */,
-				ADAE31561A082C0C00A065E8 /* VGHtmlBrTagTransform.m */,
-				ADAE31591A0832D700A065E8 /* VGHtmlPTagTransform.h */,
-				ADAE315A1A0832D700A065E8 /* VGHtmlPTagTransform.m */,
+				ADAE315E1A0847C600A065E8 /* VGHtmlATagTransfom.h */,
+				ADAE315F1A0847C600A065E8 /* VGHtmlATagTransfom.m */,
+				ADAE31601A0847C600A065E8 /* VGHtmlBrTagTransform.h */,
+				ADAE31611A0847C600A065E8 /* VGHtmlBrTagTransform.m */,
+				ADAE31621A0847C600A065E8 /* VGHtmlPTagTransform.h */,
+				ADAE31631A0847C600A065E8 /* VGHtmlPTagTransform.m */,
 			);
-			path = DefaultTransformers;
+			name = DefaultTransformers;
+			path = ../../Pod/Classes/DefaultTransformers;
+			sourceTree = "<group>";
+		};
+		ADAE316B1A08484A00A065E8 /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE31701A08491200A065E8 /* VGHtmlParser.podspec */,
+				ADAE316C1A08485C00A065E8 /* LICENSE */,
+				ADAE316D1A08485C00A065E8 /* README.md */,
+			);
+			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
 		F1BAD8E931D754D749C1CBCD /* Pods */ = {
@@ -288,7 +305,9 @@
 				ADAE31251A07D19A00A065E8 /* Main.storyboard in Resources */,
 				ADAE312A1A07D19A00A065E8 /* LaunchScreen.xib in Resources */,
 				ADAE31271A07D19A00A065E8 /* Images.xcassets in Resources */,
+				ADAE31711A08491200A065E8 /* VGHtmlParser.podspec in Resources */,
 				ADAE31411A07D50200A065E8 /* html1.html in Resources */,
+				ADAE316E1A08485C00A065E8 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,13 +388,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADAE31471A07D5B000A065E8 /* VGHtmlParser.m in Sources */,
+				ADAE31691A0847C600A065E8 /* VGHtmlPTagTransform.m in Sources */,
+				ADAE31671A0847C600A065E8 /* VGHtmlATagTransfom.m in Sources */,
+				ADAE316A1A0847C600A065E8 /* VGHtmlParser.m in Sources */,
 				ADAE31221A07D19A00A065E8 /* ViewController.m in Sources */,
 				ADAE311F1A07D19A00A065E8 /* AppDelegate.m in Sources */,
-				ADAE315B1A0832D700A065E8 /* VGHtmlPTagTransform.m in Sources */,
-				ADAE31571A082C0C00A065E8 /* VGHtmlATagTransfom.m in Sources */,
 				ADAE311C1A07D19A00A065E8 /* main.m in Sources */,
-				ADAE31581A082C0C00A065E8 /* VGHtmlBrTagTransform.m in Sources */,
+				ADAE316F1A08485C00A065E8 /* README.md in Sources */,
+				ADAE31681A0847C600A065E8 /* VGHtmlBrTagTransform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
