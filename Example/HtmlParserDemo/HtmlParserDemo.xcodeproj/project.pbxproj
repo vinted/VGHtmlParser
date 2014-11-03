@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FAA64477A2B29BFC56738BC /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB8008AF55312ED48C9221C9 /* libPods.a */; };
+		ADAE311C1A07D19A00A065E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE311B1A07D19A00A065E8 /* main.m */; };
+		ADAE311F1A07D19A00A065E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE311E1A07D19A00A065E8 /* AppDelegate.m */; };
+		ADAE31221A07D19A00A065E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31211A07D19A00A065E8 /* ViewController.m */; };
+		ADAE31251A07D19A00A065E8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADAE31231A07D19A00A065E8 /* Main.storyboard */; };
+		ADAE31271A07D19A00A065E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADAE31261A07D19A00A065E8 /* Images.xcassets */; };
+		ADAE312A1A07D19A00A065E8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADAE31281A07D19A00A065E8 /* LaunchScreen.xib */; };
+		ADAE31361A07D19A00A065E8 /* HtmlParserDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31351A07D19A00A065E8 /* HtmlParserDemoTests.m */; };
+		ADAE31411A07D50200A065E8 /* html1.html in Resources */ = {isa = PBXBuildFile; fileRef = ADAE31401A07D50200A065E8 /* html1.html */; };
+		ADAE31471A07D5B000A065E8 /* VGHtmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31461A07D5B000A065E8 /* VGHtmlParser.m */; };
+		ADAE31571A082C0C00A065E8 /* VGHtmlATagTransfom.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31541A082C0C00A065E8 /* VGHtmlATagTransfom.m */; };
+		ADAE31581A082C0C00A065E8 /* VGHtmlBrTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31561A082C0C00A065E8 /* VGHtmlBrTagTransform.m */; };
+		ADAE315B1A0832D700A065E8 /* VGHtmlPTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE315A1A0832D700A065E8 /* VGHtmlPTagTransform.m */; };
+		B49C4470E7EB2950B6D66B7F /* libPods-HtmlParserDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A23402E615387BADADCD2897 /* libPods-HtmlParserDemoTests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ADAE31301A07D19A00A065E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ADAE310E1A07D19A00A065E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ADAE31151A07D19A00A065E8;
+			remoteInfo = HtmlParserDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE7C7349E399404F03F29E7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		3388DDAC5DEA0699A9C88DCE /* Pods-HtmlParserDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HtmlParserDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HtmlParserDemoTests/Pods-HtmlParserDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A23402E615387BADADCD2897 /* libPods-HtmlParserDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HtmlParserDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAE31161A07D19A00A065E8 /* HtmlParserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HtmlParserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAE311A1A07D19A00A065E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAE311B1A07D19A00A065E8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ADAE311D1A07D19A00A065E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ADAE311E1A07D19A00A065E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ADAE31201A07D19A00A065E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ADAE31211A07D19A00A065E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ADAE31241A07D19A00A065E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ADAE31261A07D19A00A065E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ADAE31291A07D19A00A065E8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ADAE312F1A07D19A00A065E8 /* HtmlParserDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HtmlParserDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADAE31341A07D19A00A065E8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADAE31351A07D19A00A065E8 /* HtmlParserDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HtmlParserDemoTests.m; sourceTree = "<group>"; };
+		ADAE31401A07D50200A065E8 /* html1.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = html1.html; sourceTree = "<group>"; };
+		ADAE31451A07D5B000A065E8 /* VGHtmlParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlParser.h; sourceTree = "<group>"; };
+		ADAE31461A07D5B000A065E8 /* VGHtmlParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlParser.m; sourceTree = "<group>"; };
+		ADAE31481A07D92000A065E8 /* VGHtmlTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlTagTransform.h; sourceTree = "<group>"; };
+		ADAE31531A082C0C00A065E8 /* VGHtmlATagTransfom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlATagTransfom.h; sourceTree = "<group>"; };
+		ADAE31541A082C0C00A065E8 /* VGHtmlATagTransfom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlATagTransfom.m; sourceTree = "<group>"; };
+		ADAE31551A082C0C00A065E8 /* VGHtmlBrTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlBrTagTransform.h; sourceTree = "<group>"; };
+		ADAE31561A082C0C00A065E8 /* VGHtmlBrTagTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlBrTagTransform.m; sourceTree = "<group>"; };
+		ADAE31591A0832D700A065E8 /* VGHtmlPTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VGHtmlPTagTransform.h; sourceTree = "<group>"; };
+		ADAE315A1A0832D700A065E8 /* VGHtmlPTagTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlPTagTransform.m; sourceTree = "<group>"; };
+		C285C379D3560B41D65BBB97 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D40D2F1E2A4D04246C1C228A /* Pods-HtmlParserDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HtmlParserDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HtmlParserDemoTests/Pods-HtmlParserDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EB8008AF55312ED48C9221C9 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADAE31131A07D19A00A065E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAA64477A2B29BFC56738BC /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE312C1A07D19A00A065E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B49C4470E7EB2950B6D66B7F /* libPods-HtmlParserDemoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7FEE02EC8E93BBE5A07073EA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EB8008AF55312ED48C9221C9 /* libPods.a */,
+				A23402E615387BADADCD2897 /* libPods-HtmlParserDemoTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ADAE310D1A07D19A00A065E8 = {
+			isa = PBXGroup;
+			children = (
+				ADAE31181A07D19A00A065E8 /* HtmlParserDemo */,
+				ADAE31321A07D19A00A065E8 /* HtmlParserDemoTests */,
+				ADAE31171A07D19A00A065E8 /* Products */,
+				F1BAD8E931D754D749C1CBCD /* Pods */,
+				7FEE02EC8E93BBE5A07073EA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ADAE31171A07D19A00A065E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE31161A07D19A00A065E8 /* HtmlParserDemo.app */,
+				ADAE312F1A07D19A00A065E8 /* HtmlParserDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADAE31181A07D19A00A065E8 /* HtmlParserDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE31441A07D5B000A065E8 /* VGHtmlParser */,
+				ADAE313F1A07D4E000A065E8 /* HtmlFiles */,
+				ADAE311D1A07D19A00A065E8 /* AppDelegate.h */,
+				ADAE311E1A07D19A00A065E8 /* AppDelegate.m */,
+				ADAE31201A07D19A00A065E8 /* ViewController.h */,
+				ADAE31211A07D19A00A065E8 /* ViewController.m */,
+				ADAE31231A07D19A00A065E8 /* Main.storyboard */,
+				ADAE31261A07D19A00A065E8 /* Images.xcassets */,
+				ADAE31281A07D19A00A065E8 /* LaunchScreen.xib */,
+				ADAE31191A07D19A00A065E8 /* Supporting Files */,
+			);
+			path = HtmlParserDemo;
+			sourceTree = "<group>";
+		};
+		ADAE31191A07D19A00A065E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE311A1A07D19A00A065E8 /* Info.plist */,
+				ADAE311B1A07D19A00A065E8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADAE31321A07D19A00A065E8 /* HtmlParserDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE31351A07D19A00A065E8 /* HtmlParserDemoTests.m */,
+				ADAE31331A07D19A00A065E8 /* Supporting Files */,
+			);
+			path = HtmlParserDemoTests;
+			sourceTree = "<group>";
+		};
+		ADAE31331A07D19A00A065E8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE31341A07D19A00A065E8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ADAE313F1A07D4E000A065E8 /* HtmlFiles */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE31401A07D50200A065E8 /* html1.html */,
+			);
+			path = HtmlFiles;
+			sourceTree = "<group>";
+		};
+		ADAE31441A07D5B000A065E8 /* VGHtmlParser */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE31521A082C0C00A065E8 /* DefaultTransformers */,
+				ADAE31451A07D5B000A065E8 /* VGHtmlParser.h */,
+				ADAE31461A07D5B000A065E8 /* VGHtmlParser.m */,
+				ADAE31481A07D92000A065E8 /* VGHtmlTagTransform.h */,
+			);
+			name = VGHtmlParser;
+			path = ../../../VGHtmlParser;
+			sourceTree = "<group>";
+		};
+		ADAE31521A082C0C00A065E8 /* DefaultTransformers */ = {
+			isa = PBXGroup;
+			children = (
+				ADAE31531A082C0C00A065E8 /* VGHtmlATagTransfom.h */,
+				ADAE31541A082C0C00A065E8 /* VGHtmlATagTransfom.m */,
+				ADAE31551A082C0C00A065E8 /* VGHtmlBrTagTransform.h */,
+				ADAE31561A082C0C00A065E8 /* VGHtmlBrTagTransform.m */,
+				ADAE31591A0832D700A065E8 /* VGHtmlPTagTransform.h */,
+				ADAE315A1A0832D700A065E8 /* VGHtmlPTagTransform.m */,
+			);
+			path = DefaultTransformers;
+			sourceTree = "<group>";
+		};
+		F1BAD8E931D754D749C1CBCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BE7C7349E399404F03F29E7 /* Pods.debug.xcconfig */,
+				C285C379D3560B41D65BBB97 /* Pods.release.xcconfig */,
+				3388DDAC5DEA0699A9C88DCE /* Pods-HtmlParserDemoTests.debug.xcconfig */,
+				D40D2F1E2A4D04246C1C228A /* Pods-HtmlParserDemoTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADAE31151A07D19A00A065E8 /* HtmlParserDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAE31391A07D19A00A065E8 /* Build configuration list for PBXNativeTarget "HtmlParserDemo" */;
+			buildPhases = (
+				A8E279E0DF8D5AD1C2BE0DEB /* Check Pods Manifest.lock */,
+				ADAE31121A07D19A00A065E8 /* Sources */,
+				ADAE31131A07D19A00A065E8 /* Frameworks */,
+				ADAE31141A07D19A00A065E8 /* Resources */,
+				8356D06F87B6AD7C48CF55AB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HtmlParserDemo;
+			productName = HtmlParserDemo;
+			productReference = ADAE31161A07D19A00A065E8 /* HtmlParserDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ADAE312E1A07D19A00A065E8 /* HtmlParserDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADAE313C1A07D19A00A065E8 /* Build configuration list for PBXNativeTarget "HtmlParserDemoTests" */;
+			buildPhases = (
+				F1C6AEEB056852B7163A1231 /* Check Pods Manifest.lock */,
+				ADAE312B1A07D19A00A065E8 /* Sources */,
+				ADAE312C1A07D19A00A065E8 /* Frameworks */,
+				ADAE312D1A07D19A00A065E8 /* Resources */,
+				F88647682B3A9C65993AD4D7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADAE31311A07D19A00A065E8 /* PBXTargetDependency */,
+			);
+			name = HtmlParserDemoTests;
+			productName = HtmlParserDemoTests;
+			productReference = ADAE312F1A07D19A00A065E8 /* HtmlParserDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADAE310E1A07D19A00A065E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Vytautas Galaunia";
+				TargetAttributes = {
+					ADAE31151A07D19A00A065E8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					ADAE312E1A07D19A00A065E8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = ADAE31151A07D19A00A065E8;
+					};
+				};
+			};
+			buildConfigurationList = ADAE31111A07D19A00A065E8 /* Build configuration list for PBXProject "HtmlParserDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ADAE310D1A07D19A00A065E8;
+			productRefGroup = ADAE31171A07D19A00A065E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADAE31151A07D19A00A065E8 /* HtmlParserDemo */,
+				ADAE312E1A07D19A00A065E8 /* HtmlParserDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ADAE31141A07D19A00A065E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE31251A07D19A00A065E8 /* Main.storyboard in Resources */,
+				ADAE312A1A07D19A00A065E8 /* LaunchScreen.xib in Resources */,
+				ADAE31271A07D19A00A065E8 /* Images.xcassets in Resources */,
+				ADAE31411A07D50200A065E8 /* html1.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE312D1A07D19A00A065E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8356D06F87B6AD7C48CF55AB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8E279E0DF8D5AD1C2BE0DEB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1C6AEEB056852B7163A1231 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F88647682B3A9C65993AD4D7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HtmlParserDemoTests/Pods-HtmlParserDemoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADAE31121A07D19A00A065E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE31471A07D5B000A065E8 /* VGHtmlParser.m in Sources */,
+				ADAE31221A07D19A00A065E8 /* ViewController.m in Sources */,
+				ADAE311F1A07D19A00A065E8 /* AppDelegate.m in Sources */,
+				ADAE315B1A0832D700A065E8 /* VGHtmlPTagTransform.m in Sources */,
+				ADAE31571A082C0C00A065E8 /* VGHtmlATagTransfom.m in Sources */,
+				ADAE311C1A07D19A00A065E8 /* main.m in Sources */,
+				ADAE31581A082C0C00A065E8 /* VGHtmlBrTagTransform.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ADAE312B1A07D19A00A065E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADAE31361A07D19A00A065E8 /* HtmlParserDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ADAE31311A07D19A00A065E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ADAE31151A07D19A00A065E8 /* HtmlParserDemo */;
+			targetProxy = ADAE31301A07D19A00A065E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ADAE31231A07D19A00A065E8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAE31241A07D19A00A065E8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ADAE31281A07D19A00A065E8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ADAE31291A07D19A00A065E8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ADAE31371A07D19A00A065E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ADAE31381A07D19A00A065E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ADAE313A1A07D19A00A065E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE7C7349E399404F03F29E7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HtmlParserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADAE313B1A07D19A00A065E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C285C379D3560B41D65BBB97 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = HtmlParserDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ADAE313D1A07D19A00A065E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3388DDAC5DEA0699A9C88DCE /* Pods-HtmlParserDemoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HtmlParserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HtmlParserDemo.app/HtmlParserDemo";
+			};
+			name = Debug;
+		};
+		ADAE313E1A07D19A00A065E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D40D2F1E2A4D04246C1C228A /* Pods-HtmlParserDemoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HtmlParserDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HtmlParserDemo.app/HtmlParserDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADAE31111A07D19A00A065E8 /* Build configuration list for PBXProject "HtmlParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE31371A07D19A00A065E8 /* Debug */,
+				ADAE31381A07D19A00A065E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAE31391A07D19A00A065E8 /* Build configuration list for PBXNativeTarget "HtmlParserDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE313A1A07D19A00A065E8 /* Debug */,
+				ADAE313B1A07D19A00A065E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADAE313C1A07D19A00A065E8 /* Build configuration list for PBXNativeTarget "HtmlParserDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADAE313D1A07D19A00A065E8 /* Debug */,
+				ADAE313E1A07D19A00A065E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADAE310E1A07D19A00A065E8 /* Project object */;
+}
