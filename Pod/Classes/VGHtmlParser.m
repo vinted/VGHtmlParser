@@ -62,7 +62,9 @@ NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagN
             }
         }
     } else if (element.isTextNode && element.content.length) {
-        NSAttributedString *output = [[NSAttributedString alloc] initWithString:element.content attributes:@{NSForegroundColorAttributeName: [UIColor blackColor]}];
+        NSDictionary *attrs = self.defaultAttributes ?: @{};
+        NSAttributedString *output = [[NSAttributedString alloc] initWithString:element.content
+                                                                     attributes:attrs];
         [attrString appendAttributedString:output];
     }
     return [attrString copy];
@@ -74,7 +76,12 @@ NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagN
         return attrString;
     }
     id<VGHtmlTagTransform> tagTransformer = [self htmlTagTransformForTagName:element.tagName];
-    return tagTransformer ? [tagTransformer transformAttributedString:attrString element:element] : attrString;
+    
+    if (tagTransformer) {
+        attrString = [tagTransformer transformAttributedString:attrString element:element];
+    }
+    
+    return attrString;
 }
 
 #pragma mark - Trimming

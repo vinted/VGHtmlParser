@@ -15,7 +15,8 @@
     return @"a";
 }
 
-- (NSAttributedString *)transformAttributedString:(NSAttributedString *)attrString element:(TFHppleElement *)element
+- (NSAttributedString *)transformAttributedString:(NSAttributedString *)attrString
+                                          element:(TFHppleElement *)element
 {
     NSString *href = [element objectForKey:@"href"];
     NSURL *hrefUrl = [NSURL URLWithString:href];

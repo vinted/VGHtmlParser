@@ -13,7 +13,15 @@ extern NSString * const VGHtmlParserMissingTagNameException;
 
 @interface VGHtmlParser : NSObject
 
+/**
+ *  Html data
+ */
 @property (nonatomic, strong, readonly) NSData *htmlData;
+
+/**
+ *  Default attributes for attributed string, which will be generated during parse
+ */
+@property (nonatomic, strong) NSDictionary *defaultAttributes;
 
 /**
  *  Designated initialized

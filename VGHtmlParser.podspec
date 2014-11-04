@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "VGHtmlParser"
-  s.version      = "0.1.0"
+  s.version      = "0.1.1"
   s.summary      = "Simple HTML to NSAttributedString parser. Based on hpple"
   s.description  = <<-DESC
                    HTML to NSAttributeString parser
@@ -13,7 +13,7 @@ Project is based on **hpple** library. See: https://github.com/topfunky/hpple.
   s.author             = { "Vytautas Galaunia" => "vytautas.galaunia@gmail.com" }
   s.social_media_url   = "http://twitter.com/dynbit"
   s.platform     = :ios, "7.0"
-  s.source       = { :git => "https://github.com/dynbit/VGHtmlParser.git", :tag => "0.1.0" }
+  s.source       = { :git => "https://github.com/dynbit/VGHtmlParser.git", :tag => "0.1.1" }
   s.source_files  = "Pod/Classes", "Pod/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true

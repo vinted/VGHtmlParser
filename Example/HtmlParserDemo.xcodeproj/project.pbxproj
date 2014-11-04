@@ -20,9 +20,6 @@
 		ADAE31681A0847C600A065E8 /* VGHtmlBrTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31611A0847C600A065E8 /* VGHtmlBrTagTransform.m */; };
 		ADAE31691A0847C600A065E8 /* VGHtmlPTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31631A0847C600A065E8 /* VGHtmlPTagTransform.m */; };
 		ADAE316A1A0847C600A065E8 /* VGHtmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = ADAE31651A0847C600A065E8 /* VGHtmlParser.m */; };
-		ADAE316E1A08485C00A065E8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ADAE316C1A08485C00A065E8 /* LICENSE */; };
-		ADAE316F1A08485C00A065E8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = ADAE316D1A08485C00A065E8 /* README.md */; };
-		ADAE31711A08491200A065E8 /* VGHtmlParser.podspec in Resources */ = {isa = PBXBuildFile; fileRef = ADAE31701A08491200A065E8 /* VGHtmlParser.podspec */; };
 		B49C4470E7EB2950B6D66B7F /* libPods-HtmlParserDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A23402E615387BADADCD2897 /* libPods-HtmlParserDemoTests.a */; };
 /* End PBXBuildFile section */
 
@@ -305,9 +302,7 @@
 				ADAE31251A07D19A00A065E8 /* Main.storyboard in Resources */,
 				ADAE312A1A07D19A00A065E8 /* LaunchScreen.xib in Resources */,
 				ADAE31271A07D19A00A065E8 /* Images.xcassets in Resources */,
-				ADAE31711A08491200A065E8 /* VGHtmlParser.podspec in Resources */,
 				ADAE31411A07D50200A065E8 /* html1.html in Resources */,
-				ADAE316E1A08485C00A065E8 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +389,6 @@
 				ADAE31221A07D19A00A065E8 /* ViewController.m in Sources */,
 				ADAE311F1A07D19A00A065E8 /* AppDelegate.m in Sources */,
 				ADAE311C1A07D19A00A065E8 /* main.m in Sources */,
-				ADAE316F1A08485C00A065E8 /* README.md in Sources */,
 				ADAE31681A0847C600A065E8 /* VGHtmlBrTagTransform.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

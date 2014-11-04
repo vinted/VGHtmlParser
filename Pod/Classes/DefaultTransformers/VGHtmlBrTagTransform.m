@@ -15,7 +15,8 @@
     return @"br";
 }
 
-- (NSAttributedString *)transformAttributedString:(NSAttributedString *)attrString element:(TFHppleElement *)element
+- (NSAttributedString *)transformAttributedString:(NSAttributedString *)attrString
+                                          element:(TFHppleElement *)element
 {
     return [[NSAttributedString alloc] initWithString:@"\n"];
 }
