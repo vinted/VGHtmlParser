@@ -9,7 +9,7 @@ The idea behind is to have fast and customizable HTML to NSAttributedString pars
 Project is based on **hpple** library. See: https://github.com/topfunky/hpple.
                    DESC
   s.homepage     = "https://github.com/dynbit/VGHtmlParser"
-  s.license      = "Apache License, Version 2.0"
+  s.license      = "MIT"
   s.author             = { "Vytautas Galaunia" => "vytautas.galaunia@gmail.com" }
   s.social_media_url   = "http://twitter.com/dynbit"
   s.platform     = :ios, "7.0"
