@@ -14,7 +14,7 @@ Project is based on **hpple** library. See: https://github.com/topfunky/hpple.
   s.social_media_url   = "http://twitter.com/dynbit"
   s.platform     = :ios, "7.0"
   s.source       = { :git => "https://github.com/dynbit/VGHtmlParser.git", :tag => "0.1.0" }
-  s.source_files  = "Classes", "Classes/**/*.{h,m}"
+  s.source_files  = "Pod/Classes", "Pod/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
   s.dependency "hpple", "~> 0.2.0"
