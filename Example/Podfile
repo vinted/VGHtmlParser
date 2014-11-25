@@ -4,7 +4,7 @@ inhibit_all_warnings!
 
 xcodeproj 'HtmlParserDemo'
 
-pod 'hpple', '~> 0.2.0'
+pod 'hpple', :git => 'https://github.com/vinted/hpple', :tag => '0.3.0'
 
 target :HtmlParserDemoTests do
   pod 'Specta', :git => 'https://github.com/specta/specta.git', :tag => 'v0.3.0.beta1'

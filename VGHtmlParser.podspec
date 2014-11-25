@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "VGHtmlParser"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "Simple HTML to NSAttributedString parser. Based on hpple"
   s.description  = <<-DESC
                    HTML to NSAttributeString parser
@@ -17,5 +17,5 @@ Project is based on **hpple** library. See: https://github.com/topfunky/hpple.
   s.source_files  = "Pod/Classes", "Pod/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
-  s.dependency "hpple", "~> 0.2.0"
+  # s.dependency "hpple", "~>0.3.0"
 end
