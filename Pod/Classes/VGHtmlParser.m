@@ -72,7 +72,7 @@ NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagN
 
 - (NSAttributedString *)transformAttributedString:(NSAttributedString *)attrString forElement:(TFHppleElement *)element
 {
-    if (!attrString.length || !element.tagName.length) {
+    if (!element.tagName.length) {
         return attrString;
     }
     id<VGHtmlTagTransform> tagTransformer = [self htmlTagTransformForTagName:element.tagName];
