@@ -7,7 +7,6 @@
 //
 
 #import "HtmlBTagTransform.h"
-#import "Vinted-Swift.h"
 
 @implementation HtmlBTagTransform
 
