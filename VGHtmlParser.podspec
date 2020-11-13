@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name         = "VGHtmlParser"
-  s.version      = "0.1.3"
+  s.version      = "0.2.0"
   s.summary      = "Simple HTML to NSAttributedString parser. Based on hpple"
   s.description  = <<-DESC
                    HTML to NSAttributeString parser
