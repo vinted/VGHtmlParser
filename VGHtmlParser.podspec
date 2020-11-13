@@ -17,5 +17,5 @@ Project is based on **hpple** library. See: https://github.com/topfunky/hpple.
   s.source_files  = "Pod/Classes", "Pod/Classes/**/*.{h,m}"
   s.exclude_files = "Classes/Exclude"
   s.requires_arc = true
-  # s.dependency "hpple", "~>0.3.0"
+  s.dependency "hpple", "~>0.3.0"
 end

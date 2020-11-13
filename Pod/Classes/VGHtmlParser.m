@@ -7,10 +7,14 @@
 //
 
 #import "VGHtmlParser.h"
-#import <TFHpple.h>
 #import "VGHtmlATagTransfom.h"
 #import "VGHtmlBrTagTransform.h"
 #import "VGHtmlPTagTransform.h"
+#import "HtmlATagTransform.h"
+#import "HtmlITagTransform.h"
+#import "HtmlBTagTransform.h"
+
+@import hpple;
 
 NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagNameException";
 
@@ -22,6 +26,17 @@ NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagN
 @end
 
 @implementation VGHtmlParser
+
++ (instancetype)defaultParserWithHtmlData:(NSData *)htmlData linkAttributes:(NSDictionary *)linkAttributes
+{
+    VGHtmlParser *htmlParser = [[VGHtmlParser alloc] initWithHtmlData:htmlData];
+    HtmlATagTransform *aTagTransform = [[HtmlATagTransform alloc] init];
+    aTagTransform.linkAttributes = linkAttributes ?: @{};
+    [htmlParser addHtmlTagTransform:aTagTransform];
+    [htmlParser addHtmlTagTransform:[[HtmlITagTransform alloc] init]];
+    [htmlParser addHtmlTagTransform:[[HtmlBTagTransform alloc] init]];
+    return htmlParser;
+}
 
 - (instancetype)initWithHtmlData:(NSData *)htmlData
 {

@@ -1,27 +1,21 @@
-//
-//  VGHtmlParser.h
-//  
-//
-//  Created by Vytautas Galaunia on 11/3/14.
-//
-//
-
 #import <UIKit/UIKit.h>
 #import "VGHtmlTagTransform.h"
 
-extern NSString * const VGHtmlParserMissingTagNameException;
+extern NSString * __nonnull const VGHtmlParserMissingTagNameException;
 
 @interface VGHtmlParser : NSObject
+
++ (instancetype __nonnull)defaultParserWithHtmlData:(NSData * __nonnull)htmlData linkAttributes:(NSDictionary * __nullable)linkAttributes;
 
 /**
  *  Html data
  */
-@property (nonatomic, strong, readonly) NSData *htmlData;
+@property (nonatomic, strong, readonly, nonnull) NSData *htmlData;
 
 /**
  *  Default attributes for attributed string, which will be generated during parse
  */
-@property (nonatomic, strong) NSDictionary *defaultAttributes;
+@property (nonatomic, strong, nullable) NSDictionary *defaultAttributes;
 
 /**
  *  Designated initialized
@@ -32,14 +26,14 @@ extern NSString * const VGHtmlParserMissingTagNameException;
  *
  *  @return An Instance type
  */
-- (instancetype)initWithHtmlData:(NSData *)htmlData;
+- (instancetype __nonnull)initWithHtmlData:(NSData * __nonnull)htmlData;
 
 /**
  *  All html tag transforms
  *
  *  @return Array with all existing transforms
  */
-- (NSArray *)htmlTagTransforms;
+- (NSArray * __nonnull)htmlTagTransforms;
 
 /**
  *  Remove all html tag transforms
@@ -51,7 +45,7 @@ extern NSString * const VGHtmlParserMissingTagNameException;
  *
  *  @param tagTransformer An html tag transform
  */
-- (void)addHtmlTagTransform:(id<VGHtmlTagTransform>)tagTransform;
+- (void)addHtmlTagTransform:(id<VGHtmlTagTransform> __nonnull)tagTransform;
 
 /**
  *  Html tag transform for a given tag
@@ -60,20 +54,20 @@ extern NSString * const VGHtmlParserMissingTagNameException;
  *
  *  @return Transform for a given tag or nil
  */
-- (id<VGHtmlTagTransform>)htmlTagTransformForTagName:(NSString *)tagName;
+- (id<VGHtmlTagTransform> __nullable)htmlTagTransformForTagName:(NSString * __nonnull)tagName;
 
 /**
  *  Remove tag transform for a given tag name
  *
  *  @param tagName Tag name e.g. a, br, span and etc.
  */
-- (void)removeHtmlTagTransformForTagName:(NSString *)tagName;
+- (void)removeHtmlTagTransformForTagName:(NSString * __nonnull)tagName;
 
 /**
  *  Html text parsing
  *
  *  @return Html data converted to an NSAttributedString
  */
-- (NSAttributedString *)parse;
+- (NSAttributedString * __nonnull)parse;
 
 @end
