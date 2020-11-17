@@ -9,10 +9,10 @@
 /* Begin PBXBuildFile section */
 		359E20712563FF1D006695C6 /* VGHtmlParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E205F2563FF1C006695C6 /* VGHtmlParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		359E20722563FF1D006695C6 /* VGHtmlParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E20602563FF1C006695C6 /* VGHtmlParser.m */; };
-		359E20732563FF1D006695C6 /* HtmlITagTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E20632563FF1C006695C6 /* HtmlITagTransform.h */; };
+		359E20732563FF1D006695C6 /* HtmlITagTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E20632563FF1C006695C6 /* HtmlITagTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		359E20742563FF1D006695C6 /* HtmlBTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E20642563FF1C006695C6 /* HtmlBTagTransform.m */; };
 		359E20752563FF1D006695C6 /* HtmlATagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E20652563FF1C006695C6 /* HtmlATagTransform.m */; };
-		359E20762563FF1D006695C6 /* HtmlBTagTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E20662563FF1C006695C6 /* HtmlBTagTransform.h */; };
+		359E20762563FF1D006695C6 /* HtmlBTagTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E20662563FF1C006695C6 /* HtmlBTagTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		359E20772563FF1D006695C6 /* HtmlITagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E20672563FF1C006695C6 /* HtmlITagTransform.m */; };
 		359E20782563FF1D006695C6 /* HtmlATagTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E20682563FF1C006695C6 /* HtmlATagTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		359E20792563FF1D006695C6 /* VGHtmlPTagTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E206A2563FF1C006695C6 /* VGHtmlPTagTransform.h */; };
@@ -22,10 +22,10 @@
 		359E207D2563FF1D006695C6 /* VGHtmlATagTransfom.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E206E2563FF1D006695C6 /* VGHtmlATagTransfom.m */; };
 		359E207E2563FF1D006695C6 /* VGHtmlBrTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E206F2563FF1D006695C6 /* VGHtmlBrTagTransform.m */; };
 		359E207F2563FF1D006695C6 /* VGHtmlTagTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E20702563FF1D006695C6 /* VGHtmlTagTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		359E208C256402DF006695C6 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E2086256402DF006695C6 /* TFHppleElement.h */; };
+		359E208C256402DF006695C6 /* TFHppleElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E2086256402DF006695C6 /* TFHppleElement.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		359E208D256402DF006695C6 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E2087256402DF006695C6 /* TFHpple.m */; };
-		359E208E256402DF006695C6 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E2088256402DF006695C6 /* XPathQuery.h */; };
-		359E208F256402DF006695C6 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E2089256402DF006695C6 /* TFHpple.h */; };
+		359E208E256402DF006695C6 /* XPathQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E2088256402DF006695C6 /* XPathQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		359E208F256402DF006695C6 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E2089256402DF006695C6 /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		359E2090256402DF006695C6 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E208A256402DF006695C6 /* TFHppleElement.m */; };
 		359E2091256402DF006695C6 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E208B256402DF006695C6 /* XPathQuery.m */; };
 /* End PBXBuildFile section */
