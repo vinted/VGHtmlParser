@@ -29,8 +29,7 @@
 
 
 #import <Foundation/Foundation.h>
-
-#import "TFHppleElement.h"
+#import <VGHtmlParser/TFHppleElement.h>
 
 @interface TFHpple : NSObject 
 

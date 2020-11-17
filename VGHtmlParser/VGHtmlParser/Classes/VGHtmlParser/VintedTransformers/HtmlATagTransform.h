@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <VGHtmlTagTransform.h>
+#import <VGHtmlParser/VGHtmlTagTransform.h>
 
 extern NSString * const VintedLinkAttributeName;
 
