@@ -14,7 +14,7 @@
         return attrString;
     }
     
-    NSMutableAttributedString *newAttrString = [[NSMutableAttributedString alloc] initWithString:@"\n\t• "];
+    NSMutableAttributedString *newAttrString = [[NSMutableAttributedString alloc] initWithString:@"  • "];
     [newAttrString appendAttributedString:[attrString mutableCopy]];
     [newAttrString appendAttributedString:[[NSAttributedString alloc] initWithString:@"\n"]];
     return [newAttrString copy];
