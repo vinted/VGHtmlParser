@@ -14,7 +14,7 @@
         return attrString;
     }
     
-    NSMutableAttributedString *newAttrString = [[NSMutableAttributedString alloc] initWithString:@"  • "];
+    NSMutableAttributedString *newAttrString = [[NSMutableAttributedString alloc] initWithString:@"  \u2022  "];
     [newAttrString appendAttributedString:[attrString mutableCopy]];
     [newAttrString appendAttributedString:[[NSAttributedString alloc] initWithString:@"\n"]];
     return [newAttrString copy];
