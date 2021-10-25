@@ -28,6 +28,8 @@
 		359E208F256402DF006695C6 /* TFHpple.h in Headers */ = {isa = PBXBuildFile; fileRef = 359E2089256402DF006695C6 /* TFHpple.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		359E2090256402DF006695C6 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E208A256402DF006695C6 /* TFHppleElement.m */; };
 		359E2091256402DF006695C6 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 359E208B256402DF006695C6 /* XPathQuery.m */; };
+		805E6F6A2718528A0068E2CB /* HtmlLiTagTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 805E6F69271852790068E2CB /* HtmlLiTagTransform.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		805E6F6C271852FD0068E2CB /* HtmlLiTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 805E6F6B271852FD0068E2CB /* HtmlLiTagTransform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +56,8 @@
 		359E208B256402DF006695C6 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
 		35A06E14255EE5860061BC41 /* VGHtmlParser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = VGHtmlParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		35A06E18255EE5860061BC41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		805E6F69271852790068E2CB /* HtmlLiTagTransform.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HtmlLiTagTransform.h; sourceTree = "<group>"; };
+		805E6F6B271852FD0068E2CB /* HtmlLiTagTransform.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HtmlLiTagTransform.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 				359E20662563FF1C006695C6 /* HtmlBTagTransform.h */,
 				359E20672563FF1C006695C6 /* HtmlITagTransform.m */,
 				359E20682563FF1C006695C6 /* HtmlATagTransform.h */,
+				805E6F69271852790068E2CB /* HtmlLiTagTransform.h */,
+				805E6F6B271852FD0068E2CB /* HtmlLiTagTransform.m */,
 			);
 			path = VintedTransformers;
 			sourceTree = "<group>";
@@ -175,6 +181,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				805E6F6A2718528A0068E2CB /* HtmlLiTagTransform.h in Headers */,
 				359E207A2563FF1D006695C6 /* VGHtmlATagTransfom.h in Headers */,
 				359E208E256402DF006695C6 /* XPathQuery.h in Headers */,
 				359E20762563FF1D006695C6 /* HtmlBTagTransform.h in Headers */,
@@ -258,6 +265,7 @@
 			files = (
 				359E207D2563FF1D006695C6 /* VGHtmlATagTransfom.m in Sources */,
 				359E20772563FF1D006695C6 /* HtmlITagTransform.m in Sources */,
+				805E6F6C271852FD0068E2CB /* HtmlLiTagTransform.m in Sources */,
 				359E2091256402DF006695C6 /* XPathQuery.m in Sources */,
 				359E207C2563FF1D006695C6 /* VGHtmlPTagTransform.m in Sources */,
 				359E20722563FF1D006695C6 /* VGHtmlParser.m in Sources */,
