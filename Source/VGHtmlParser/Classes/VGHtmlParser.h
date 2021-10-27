@@ -1,10 +1,10 @@
 #import <UIKit/UIKit.h>
-#import <VGHtmlParser/VGHtmlTagTransform.h>
-#import <VGHtmlParser/HtmlATagTransform.h>
-#import <VGHtmlParser/HtmlITagTransform.h>
-#import <VGHtmlParser/HtmlBTagTransform.h>
-#import <VGHtmlParser/HtmlLiTagTransform.h>
-#import <VGHtmlParser/XPathQuery.h>
+#import <VGHtmlTagTransform.h>
+#import <HtmlATagTransform.h>
+#import <HtmlITagTransform.h>
+#import <HtmlBTagTransform.h>
+#import <HtmlLiTagTransform.h>
+#import <XPathQuery.h>
 
 extern NSString * __nonnull const VGHtmlParserMissingTagNameException;
 
