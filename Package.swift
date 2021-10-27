@@ -14,6 +14,7 @@ let package = Package(
             name: "VGHtmlParserDynamic",
             type: .dynamic,
             targets: ["VGHtmlParser"]
+
         ),
         .library(
             name: "VGHtmlParser",
@@ -36,6 +37,12 @@ let package = Package(
                 .headerSearchPath("Classes/DefaultTransformers"),
                 .headerSearchPath("Dependencies/hpple/Classes")
             ]
+        ),
+        .binaryTarget(
+            name: "VGHtmlParserBinary",
+            url: "https://github.com/vinted/ios-event-builder-test/releases/download/0.0.1/ios-event-builder-test.xcframework.zip",
+            checksum: "3180c34ec2f0ba3a8d5fe69fe90816368e7a74e6b25d11cb6dd382cf87ae6083"
         )
+
     ]
 )
