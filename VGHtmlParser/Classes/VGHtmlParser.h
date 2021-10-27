@@ -3,6 +3,7 @@
 #import <VGHtmlParser/HtmlATagTransform.h>
 #import <VGHtmlParser/HtmlITagTransform.h>
 #import <VGHtmlParser/HtmlBTagTransform.h>
+#import <VGHtmlParser/HtmlLiTagTransform.h>
 #import <VGHtmlParser/XPathQuery.h>
 
 extern NSString * __nonnull const VGHtmlParserMissingTagNameException;
