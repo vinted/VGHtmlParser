@@ -16,7 +16,7 @@ let package = Package(
             targets: ["VGHtmlParser"]
         ),
         .library(
-            name: "VGHtmlParser",
+            name: "VGHtmlParserStatic",
             type: .static,
             targets: ["VGHtmlParser"]
         )
