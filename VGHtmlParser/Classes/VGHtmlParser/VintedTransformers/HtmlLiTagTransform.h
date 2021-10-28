@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-#import <VGHtmlParser/VGHtmlTagTransform.h>
+#import "VGHtmlTagTransform.h"
 
 @interface HtmlLiTagTransform : NSObject<VGHtmlTagTransform>
 

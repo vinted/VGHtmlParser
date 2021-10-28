@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <VGHtmlParser/VGHtmlTagTransform.h>
+#import "VGHtmlTagTransform.h"
 
 @interface HtmlITagTransform : NSObject<VGHtmlTagTransform>
 
