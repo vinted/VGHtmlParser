@@ -32,10 +32,10 @@ let package = Package(
                 "Dependencies/hpple/LICENSE.txt"
             ],
             sources: ["Classes", "Dependencies"],
-            publicHeadersPath: ".",
+            publicHeadersPath: "Classes/VGHtmlParser/VGHtmlParser.h",
             cSettings: [
                 .headerSearchPath("Classes/**"),
-                .headerSearchPath("Dependencies/hpple/Classes/")
+                .headerSearchPath("Dependencies/**")
             ]
         )
     ]
