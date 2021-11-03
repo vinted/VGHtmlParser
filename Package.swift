@@ -37,7 +37,8 @@ let package = Package(
             publicHeadersPath: "Classes/Public",
             cSettings: [
                 .headerSearchPath("Classes/Private/DefaultTransformers"),
-                .headerSearchPath("Classes/Private/VintedTransformers")
+                .headerSearchPath("Classes/Private/VintedTransformers"),
+                .headerSearchPath("Classes/Public")
             ]
         ),
 
