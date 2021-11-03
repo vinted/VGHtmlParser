@@ -34,11 +34,10 @@ let package = Package(
                 "Info.plist"
             ],
             sources: ["Classes", "Dependencies"],
-           // publicHeadersPath: "Classes/VGHtmlParser/VGHtmlParser.h",
+            publicHeadersPath: "Classes/Public",
             cSettings: [
-                .headerSearchPath("Classes/Transformers/DefaultTransformers"),
-                .headerSearchPath("Classes/Transformers/VintedTransformers"),
-                .headerSearchPath("Classes"),
+                .headerSearchPath("Classes/Private/DefaultTransformers"),
+                .headerSearchPath("Classes/Private/VintedTransformers"),
                 .headerSearchPath("Dependencies/hpple/Classes")
             ]
         )
