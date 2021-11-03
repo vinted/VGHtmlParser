@@ -1,7 +1,7 @@
 #import <UIKit/UIKit.h>
 #import "VGHtmlTagTransform.h"
-#import "HtmlATagTransform.h"
 
+extern NSString * _Nonnull const VintedLinkAttributeName;
 extern NSString * __nonnull const VGHtmlParserMissingTagNameException;
 
 @interface VGHtmlParser : NSObject
