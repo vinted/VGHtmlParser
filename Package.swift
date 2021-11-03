@@ -15,11 +15,11 @@ let package = Package(
         //    type: .dynamic,
             targets: ["VGHtmlParser"]
         ),
-        .library(
-            name: "VGHtmlParserStatic",
+        //.library(
+        //    name: "VGHtmlParserStatic",
          //   type: .static,
-            targets: ["VGHtmlParser"]
-        )
+       //     targets: ["VGHtmlParser"]
+      //  )
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
