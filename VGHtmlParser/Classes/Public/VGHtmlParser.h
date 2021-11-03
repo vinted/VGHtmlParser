@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "VGHtmlTagTransform.h"
+#import "HtmlATagTransform.h"
 
 extern NSString * __nonnull const VGHtmlParserMissingTagNameException;
 
