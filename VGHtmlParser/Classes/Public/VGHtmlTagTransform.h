@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <VGHtmlParser/TFHpple.h>
+#import "TFHpple.h"
 
 @protocol VGHtmlTagTransform <NSObject>
 

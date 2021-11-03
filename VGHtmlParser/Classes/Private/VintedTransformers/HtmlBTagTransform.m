@@ -6,7 +6,7 @@
 //  Copyright (c) 2014 Vinted. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 #import "HtmlBTagTransform.h"
 
 @implementation HtmlBTagTransform

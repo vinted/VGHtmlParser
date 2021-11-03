@@ -1,5 +1,5 @@
 //
-//  HtmlITagTransform.h
+//  HtmlBTagTransform.h
 //  Vinted
 //
 //  Created by Vytautas Galaunia on 11/5/14.
@@ -7,8 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <VGHtmlParser/VGHtmlTagTransform.h>
+#import "VGHtmlTagTransform.h"
 
-@interface HtmlITagTransform : NSObject<VGHtmlTagTransform>
+@interface HtmlBTagTransform : NSObject<VGHtmlTagTransform>
 
 @end

@@ -1,11 +1,7 @@
 #import <UIKit/UIKit.h>
-#import <VGHtmlParser/VGHtmlTagTransform.h>
-#import <VGHtmlParser/HtmlATagTransform.h>
-#import <VGHtmlParser/HtmlITagTransform.h>
-#import <VGHtmlParser/HtmlBTagTransform.h>
-#import <VGHtmlParser/HtmlLiTagTransform.h>
-#import <VGHtmlParser/XPathQuery.h>
+#import "VGHtmlTagTransform.h"
 
+extern NSString * _Nonnull const VintedLinkAttributeName;
 extern NSString * __nonnull const VGHtmlParserMissingTagNameException;
 
 @interface VGHtmlParser : NSObject
