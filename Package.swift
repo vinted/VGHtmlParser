@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "VGHtmlParser",
     platforms: [
-        .iOS(.v12),
+        .iOS(.v11)
     ],
     products: [
         // Products define the executables and libraries a package produces, and make them visible to other packages.
@@ -35,8 +35,10 @@ let package = Package(
             sources: ["Classes", "Dependencies"],
            // publicHeadersPath: "Classes/VGHtmlParser/VGHtmlParser.h",
             cSettings: [
-                .headerSearchPath("Classes/**"),
-                .headerSearchPath("Dependencies/**")
+                .headerSearchPath("Classes/Transformers/DefaultTransformers"),
+                .headerSearchPath("Classes/Transformers/VintedTransformers"),
+                .headerSearchPath("Classes"),
+                .headerSearchPath("Dependencies/hpple/Classes")
             ]
         )
     ]
