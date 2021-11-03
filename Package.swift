@@ -30,11 +30,6 @@ let package = Package(
                 .target(name: "hpple")
             ],
             path: "VGHtmlParser/Classes",
-            exclude: [
-                "Dependencies/hpple/README.markdown",
-                "Dependencies/hpple/LICENSE.txt",
-                "Info.plist"
-            ],
             sources: ["."],
             publicHeadersPath: "Public",
             cSettings: [
