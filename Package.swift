@@ -12,12 +12,12 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "VGHtmlParserDynamic",
-            type: .dynamic,
+        //    type: .dynamic,
             targets: ["VGHtmlParser"]
         ),
         .library(
             name: "VGHtmlParserStatic",
-            type: .static,
+         //   type: .static,
             targets: ["VGHtmlParser"]
         )
     ],
