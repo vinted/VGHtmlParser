@@ -30,7 +30,8 @@ let package = Package(
             path: "VGHtmlParser",
             exclude: [
                 "Dependencies/hpple/README.markdown",
-                "Dependencies/hpple/LICENSE.txt"
+                "Dependencies/hpple/LICENSE.txt",
+                "Info.plist"
             ],
             sources: ["Classes", "Dependencies"],
            // publicHeadersPath: "Classes/VGHtmlParser/VGHtmlParser.h",
