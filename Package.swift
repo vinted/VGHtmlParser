@@ -26,13 +26,14 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages this package depends on.
         .target(
             name: "VGHtmlParser",
-            path: "VGHtmlParser/",
+            dependencies: [],
+            path: "VGHtmlParser",
             exclude: [
                 "Dependencies/hpple/README.markdown",
                 "Dependencies/hpple/LICENSE.txt"
             ],
             sources: ["Classes", "Dependencies"],
-            publicHeadersPath: "Classes/VGHtmlParser/VGHtmlParser.h",
+           // publicHeadersPath: "Classes/VGHtmlParser/VGHtmlParser.h",
             cSettings: [
                 .headerSearchPath("Classes/**"),
                 .headerSearchPath("Dependencies/**")
