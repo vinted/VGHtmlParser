@@ -12,14 +12,14 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "VGHtmlParserDynamic",
-        //    type: .dynamic,
+            type: .dynamic,
             targets: ["VGHtmlParser"]
         ),
-        //.library(
-        //    name: "VGHtmlParserStatic",
-         //   type: .static,
-       //     targets: ["VGHtmlParser"]
-      //  )
+        .library(
+            name: "VGHtmlParserStatic",
+            type: .static,
+            targets: ["VGHtmlParser"]
+        )
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
@@ -39,24 +39,13 @@ let package = Package(
             publicHeadersPath: "Public",
             cSettings: [
                 .headerSearchPath("Private/DefaultTransformers"),
-                .headerSearchPath("Private/VintedTransformers"),
-                .headerSearchPath("Public")
+                .headerSearchPath("Private/VintedTransformers")
             ]
         ),
-
         .target(
             name: "hpple",
-            dependencies: [],
-            path: "VGHtmlParser/Dependencies/hpple",
-            exclude: [
-                "README.markdown",
-                "LICENSE.txt"
-            ],
-            sources: ["Classes"],
-            publicHeadersPath: "Classes",
-            cSettings: [
-                .headerSearchPath("Classes")
-            ]
+            path: "VGHtmlParser/Dependencies/hpple/Classes",
+            publicHeadersPath: "."
         )
     ]
 )
