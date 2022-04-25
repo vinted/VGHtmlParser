@@ -62,7 +62,13 @@ NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagN
     NSArray *elements = [doc searchWithXPathQuery:@"/"];
     TFHppleElement * element = [elements firstObject];
     NSAttributedString *attrString = [self attrStringForElement:element];
-    return [self trimWhitespaceAndNewLine:attrString];
+    
+    NSString *string = [[NSString alloc] initWithData:self.htmlData encoding:NSUnicodeStringEncoding];
+    if ([string hasPrefix:@"<ul>"]) {
+        return [self trimWhitespaceAndNewLine:attrString skipWhitespaceAtStart:true];
+    }
+
+    return [self trimWhitespaceAndNewLine:attrString skipWhitespaceAtStart:false];
 }
 
 
@@ -102,17 +108,21 @@ NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagN
 
 #pragma mark - Trimming
 
-- (NSAttributedString *)trimWhitespaceAndNewLine:(NSAttributedString *)attrString
+- (NSAttributedString *)trimWhitespaceAndNewLine:(NSAttributedString *)attrString skipWhitespaceAtStart:(BOOL *)skipWhitespace
 {
     NSMutableAttributedString *newAttrString = [attrString mutableCopy];
 
     NSCharacterSet *charSet = [NSCharacterSet whitespaceAndNewlineCharacterSet];
-    NSRange range           = [newAttrString.string rangeOfCharacterFromSet:charSet];
+    if (skipWhitespace) {
+        charSet = [NSCharacterSet newlineCharacterSet];
+    }
+    NSRange range = [newAttrString.string rangeOfCharacterFromSet:charSet];
     while (range.length != 0 && range.location == 0) {
         [newAttrString replaceCharactersInRange:range withString:@""];
         range = [newAttrString.string rangeOfCharacterFromSet:charSet];
     }
     
+    charSet = [NSCharacterSet whitespaceAndNewlineCharacterSet];
     range = [newAttrString.string rangeOfCharacterFromSet:charSet options:NSBackwardsSearch];
     while (range.length != 0 && NSMaxRange(range) == newAttrString.length)
     {
