@@ -15,7 +15,7 @@
     }
     
     NSMutableAttributedString *result = [attrString mutableCopy];
-    NSDictionary *attributes = @{@"TextAttributeStrikethrough":@true};
+    NSDictionary *attributes = @{@"TextAttributeStrikethrough":@""};
     [result addAttributes:attributes range:NSMakeRange(0, result.length)];
     return [result copy];
 }
