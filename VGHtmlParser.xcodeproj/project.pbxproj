@@ -30,6 +30,8 @@
 		35F0DCCA2732D4BC00315968 /* VGHtmlPTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F0DCB92732D4BC00315968 /* VGHtmlPTagTransform.m */; };
 		35F0DCCB2732D4BC00315968 /* VGHtmlATagTransfom.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F0DCBA2732D4BC00315968 /* VGHtmlATagTransfom.m */; };
 		35F0DCCC2732D4BC00315968 /* VGHtmlBrTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 35F0DCBB2732D4BC00315968 /* VGHtmlBrTagTransform.m */; };
+		80962DF62B6ADD51000861F1 /* HtmlSTagTransform.h in Headers */ = {isa = PBXBuildFile; fileRef = 80962DF42B6ADD51000861F1 /* HtmlSTagTransform.h */; };
+		80962DF72B6ADD51000861F1 /* HtmlSTagTransform.m in Sources */ = {isa = PBXBuildFile; fileRef = 80962DF52B6ADD51000861F1 /* HtmlSTagTransform.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		35F0DCB92732D4BC00315968 /* VGHtmlPTagTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlPTagTransform.m; sourceTree = "<group>"; };
 		35F0DCBA2732D4BC00315968 /* VGHtmlATagTransfom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlATagTransfom.m; sourceTree = "<group>"; };
 		35F0DCBB2732D4BC00315968 /* VGHtmlBrTagTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VGHtmlBrTagTransform.m; sourceTree = "<group>"; };
+		80962DF42B6ADD51000861F1 /* HtmlSTagTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HtmlSTagTransform.h; sourceTree = "<group>"; };
+		80962DF52B6ADD51000861F1 /* HtmlSTagTransform.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HtmlSTagTransform.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +161,8 @@
 		35F0DCAC2732D4BC00315968 /* VintedTransformers */ = {
 			isa = PBXGroup;
 			children = (
+				80962DF42B6ADD51000861F1 /* HtmlSTagTransform.h */,
+				80962DF52B6ADD51000861F1 /* HtmlSTagTransform.m */,
 				35F0DCAD2732D4BC00315968 /* HtmlLiTagTransform.h */,
 				35F0DCAE2732D4BC00315968 /* HtmlITagTransform.h */,
 				35F0DCAF2732D4BC00315968 /* HtmlBTagTransform.m */,
@@ -200,6 +206,7 @@
 				35F0DCC82732D4BC00315968 /* VGHtmlATagTransfom.h in Headers */,
 				359E208F256402DF006695C6 /* TFHpple.h in Headers */,
 				35F0DCC62732D4BC00315968 /* HtmlATagTransform.h in Headers */,
+				80962DF62B6ADD51000861F1 /* HtmlSTagTransform.h in Headers */,
 				359E208C256402DF006695C6 /* TFHppleElement.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -278,6 +285,7 @@
 				35F0DCBD2732D4BC00315968 /* VGHtmlParser.m in Sources */,
 				359E2091256402DF006695C6 /* XPathQuery.m in Sources */,
 				35F0DCCC2732D4BC00315968 /* VGHtmlBrTagTransform.m in Sources */,
+				80962DF72B6ADD51000861F1 /* HtmlSTagTransform.m in Sources */,
 				359E2090256402DF006695C6 /* TFHppleElement.m in Sources */,
 				35F0DCC52732D4BC00315968 /* HtmlITagTransform.m in Sources */,
 				35F0DCC22732D4BC00315968 /* HtmlATagTransform.m in Sources */,
