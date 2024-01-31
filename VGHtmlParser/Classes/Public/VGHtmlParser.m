@@ -14,6 +14,7 @@
 #import "HtmlITagTransform.h"
 #import "HtmlBTagTransform.h"
 #import "HtmlLiTagTransform.h"
+#import "HtmlSTagTransform.h"
 
 
 NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagNameException";
@@ -36,6 +37,7 @@ NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagN
     [htmlParser addHtmlTagTransform:[[HtmlITagTransform alloc] init]];
     [htmlParser addHtmlTagTransform:[[HtmlBTagTransform alloc] init]];
     [htmlParser addHtmlTagTransform:[[HtmlLiTagTransform alloc] init]];
+    [htmlParser addHtmlTagTransform:[[HtmlSTagTransform alloc] init]];
     return htmlParser;
 }
 
