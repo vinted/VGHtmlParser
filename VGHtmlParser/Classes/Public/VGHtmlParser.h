@@ -3,6 +3,7 @@
 
 extern NSString * _Nonnull const VintedLinkAttributeName;
 extern NSString * __nonnull const VGHtmlParserMissingTagNameException;
+extern NSString * _Nonnull const listBulletSymbol;
 
 @interface VGHtmlParser : NSObject
 
