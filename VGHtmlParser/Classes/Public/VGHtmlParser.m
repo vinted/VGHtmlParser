@@ -18,6 +18,7 @@
 
 
 NSString * const VGHtmlParserMissingTagNameException = @"VGHtmlParserMissingTagNameException";
+NSString * const listBulletSymbol = @"  \u2022  ";
 
 @interface VGHtmlParser ()
 

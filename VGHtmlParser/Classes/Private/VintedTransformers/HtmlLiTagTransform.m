@@ -1,5 +1,6 @@
 #import <UIKit/UIKit.h>
 #import "HtmlLiTagTransform.h"
+#import "VGHtmlParser.h"
 
 @implementation HtmlLiTagTransform
 
@@ -14,9 +15,13 @@
         return attrString;
     }
     
-    NSMutableAttributedString *newAttrString = [[NSMutableAttributedString alloc] initWithString:@"  \u2022  "];
+    NSMutableAttributedString *newAttrString = [[NSMutableAttributedString alloc] initWithString:listBulletSymbol];
     [newAttrString appendAttributedString:[attrString mutableCopy]];
     [newAttrString appendAttributedString:[[NSAttributedString alloc] initWithString:@"\n"]];
+    
+    NSDictionary *attributes = @{@"TextAttributeHeadIndentEnabled":@true};
+    [newAttrString addAttributes:attributes range:NSMakeRange(0, newAttrString.length)];
+
     return [newAttrString copy];
 }
 
